@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1c1f24;
+  background-color: hsl(86, 88%, 40%);
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
 }
 
 .score {
-  color: #ff9900;
+  color: #0a4103;
   text-align: center;
   font-size: 36px;
   font-weight: 800;
@@ -38,7 +38,7 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  box-shadow: 0px 0px 16px 0px rgba(255, 247, 0, 0.716);
+  box-shadow: 0px 0px 16px 0px rgb(2, 238, 255);
   transition: transform 0.2s ease;
   --tiltX: 0deg;
   --tiltY: 0deg;
@@ -48,10 +48,10 @@ body {
 .plus-one {
   position: absolute;
   font-family: Inter;
-  text-shadow: 0px 0px 4px rgb(255, 179, 0);
+  text-shadow: 0px 0px 4px rgba(217, 255, 0, 0.986);
   font-size: 24px;
   font-weight: 800;
-  background: linear-gradient(180deg, #e8c547 0%, #ef882b 100%);
+  background: linear-gradient(180deg, #00e1ff 0%, #01d9ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
